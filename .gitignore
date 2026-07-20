@@ -1,0 +1,79 @@
+# Generated image assets
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.heic
+
+# Generated video assets
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.mpeg
+*.mpg
+
+# Generated audio and music
+*.mp3
+*.wav
+*.aac
+*.flac
+*.m4a
+*.ogg
+*.aiff
+
+# Local production and export directories
+assets-local/
+media-local/
+downloads/
+renders/
+exports/
+output/
+outputs/
+dist-media/
+temp/
+tmp/
+
+# Editing project caches and proxies
+**/cache/
+**/caches/
+**/proxy/
+**/proxies/
+**/preview/
+**/previews/
+**/autosave/
+**/autosaves/
+
+# Browser profiles, sessions, and credentials
+browser-profile/
+browser-data/
+.cookies/
+*.cookie
+*.cookies
+*.token
+*.secret
+.env
+.env.*
+!.env.example
+
+# Operating-system and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Dependency and build caches
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
